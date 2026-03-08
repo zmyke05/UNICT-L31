@@ -1,0 +1,1 @@
+/* 8) Stampare il valore restituito dall'operatore sizeof per il tipo long ed il tipo "long long";  */
