@@ -1,0 +1,2 @@
+Automi a stati finiti non deterministici
+Pamping Lemma
