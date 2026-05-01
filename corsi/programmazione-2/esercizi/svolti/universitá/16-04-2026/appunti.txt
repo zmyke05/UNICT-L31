@@ -1,0 +1,59 @@
+DEFINIZIONE DI PROGRAMMA EFFICIENTE
+
+Utilizzo di risorse suddivise in:
+Risorse spaziali (memoria) e risorse temporali
+
+Lo spazio: quantitativo di memooria predisposti
+Il tempo: numeroo cicli macchina che servono per risolvere il problema
+
+Minimizzazione delle risorse:
+
+Immaginiamo di scrivere un if
+Il linguaggio ha dei meta-costrutti cge celano il reale funzionamento della macchina
+
+Cosa é una istruzione elementare
+
+Bisogna capire quali  sono le istruzioni elementari che abbiamo nel nostro programma.
+Ci sono delle condizioni che vengono eseguite a tempo costante e cio vale a dire che é indipendente da tutti i fattori.
+
+NOTAZIONE ASINTOTICA (O GRANDE)
+A noi non interessa analizzare una funziona in ogni suo punto. 
+Il programma potrebbe non essere costante, ovvero maggiore é l'input maggiore é la complesitá
+
+Include tutte quelle funzioni che sovrastano la funzione del nostro programma; (UPPER BOUND)
+Il fatto costante interviene quando una funzione coincide e sale
+
+Non sempre é conveninete trovare una funzione superiorie.
+Se ho un algoritmo di ordinamento e voglio trovare una funzione g apprtiene a O GRANDE#
+
+ESEMPIO 
+Voglio trovare upper bound di 4n
+
+
+NOTAZIONE ASINTOTICA Ω GRANDE
+Il suo obiettivo é trovare lower bound
+
+NOTAZIONE ASINTOTICA TETA GRANDE
+É l'insieme delle funzioni strette, e stringono le funzioni fra due limiti:
+
+Si dovrebbe trovare una funzone che schiaccia totalmente le funzioni fra due bound
+
+
+IN QUALI CASI TROVARE (O GRANDE) OPPURE (OMEGA GRANDE)
+Uso l'algoritmo di ordinamento bubble sort e uso n quadro.
+Se io questo olgaritmo che mi costa n2 quando potrebbe costarmi il miglior algoritmo migliore?
+
+
+Immaginiamo di avere:
+
+a1 a2 a3
+0 3 2
+Prendiamo due elementi
+a2 e a3
+
+a1: puó essere maggiore
+a2: puó essere minore
+
+confronto a2 a1
+
+algoritmo Ω(n Log n)
