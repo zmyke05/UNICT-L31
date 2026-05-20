@@ -19,13 +19,13 @@ public:
 
     double get_x() const { return this->x; }
     double get_y() const { return this->y; }
+    
     static int get_num_operazioni() { return num_operazioni; }
-
     // OPERATOR
     Vettore2D operator+(const Vettore2D &altro) const { return Vettore2D(this->x + altro.x, this->y + altro.y); }
     Vettore2D operator-(const Vettore2D &altro) const { return Vettore2D(this->x - altro.x, this->y - altro.y); }
-    bool operator==(const Vettore2D altro) { return this->x == altro.x && this->y == altro.y; }
-    bool operator!=(const Vettore2D altro) { return this->x != altro.x && this->y != altro.y; }
+    bool operator==(const Vettore2D& altro) { return this->x == altro.x && this->y == altro.y; }
+    bool operator!=(const Vettore2D& altro) { return !(*this == altro); }
 
     Vettore2D &scala(double fattore)
     {
