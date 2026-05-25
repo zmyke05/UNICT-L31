@@ -1,6 +1,7 @@
 /* Esercizio 3 (avanzato): Crea una gerarchia Conto → ContoCorrente → ContoCorrente_Premium con questi requisiti:
 
-Conto gestisce un array dinamico di double che rappresenta lo storico delle transazioni (usa la Regola del Tre completa). Ha metodi deposita(), preleva() (no saldo negativo), stampa_storico(). Ha un attributo static num_conti. Implementa operator<<.
+Conto gestisce un array dinamico di double che rappresenta lo storico delle transazioni (usa la Regola del Tre completa). Ha metodi deposita(), preleva() (no saldo negativo), stampa_storico(). 
+Ha un attributo static num_conti. Implementa operator<<.
 ContoCorrente aggiunge limite_scoperto — preleva() permette saldo negativo fino al limite. Chiama Conto::preleva() se possibile, gestisce autonomamente solo il caso scoperto.
 ContoCorrente_Premium aggiunge cashback_percentuale — ogni prelievo riuscito aggiunge automaticamente il cashback% dell'importo come deposito. Ridefinisce preleva() chiamando quello di ContoCorrente.
 
@@ -99,7 +100,7 @@ public:
         if (importo <= 0)
             return *this;
         this->saldo += importo;
-        aggiungi_transizione(importo);
+        aggiungi_transizione(+importo);
         return *this;
     }
 

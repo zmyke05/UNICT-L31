@@ -1,4 +1,6 @@
-/* Esercizio 2 (medio): Crea una gerarchia a tre livelli: Dipendente (nome, stipendio base) → Responsabile (aggiunge bonus) → DirettoreRegionale (aggiunge num_filiali). Ogni classe aggiunge un metodo stipendio_totale() che calcola il compenso complessivo: per Dipendente è lo stipendio base, per Responsabile è stipendio base + bonus, per DirettoreRegionale è stipendio base + bonus + num_filiali * 500. Ogni classe chiama il metodo della classe sopra nella catena. Testa nel main creando un oggetto per ogni livello. */
+/* Esercizio 2 (medio): Crea una gerarchia a tre livelli: Dipendente (nome, stipendio base) → Responsabile (aggiunge bonus) → DirettoreRegionale (aggiunge num_filiali). 
+Ogni classe aggiunge un metodo stipendio_totale() che calcola il compenso complessivo: per Dipendente è lo stipendio base, per Responsabile è stipendio base + bonus, per DirettoreRegionale è stipendio base + bonus + num_filiali * 500. Ogni classe chiama il metodo della classe sopra nella catena. 
+Testa nel main creando un oggetto per ogni livello. */
 #include <iostream>
 
 using namespace std;

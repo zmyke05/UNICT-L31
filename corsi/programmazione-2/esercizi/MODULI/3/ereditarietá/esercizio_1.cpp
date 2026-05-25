@@ -1,4 +1,6 @@
-/* Esercizio 1 (base): Crea una classe Veicolo con attributi privati marca (string) e velocita_max (double), costruttore, getter e un metodo info() che stampa tutto. Crea una classe derivata Auto che aggiunge num_porte (int) e una classe derivata Moto che aggiunge cilindrata (int). Entrambe chiamano Veicolo::info() nel loro metodo info() e aggiungono le proprie informazioni. Verifica l'ordine di costruzione e distruzione con messaggi nei costruttori e distruttori. Testale nel main. */
+/* Esercizio 1 (base): Crea una classe Veicolo con attributi privati marca (string) e velocita_max (double), costruttore, getter e un metodo info() che stampa tutto. 
+Crea una classe derivata Auto che aggiunge num_porte (int) e una classe derivata Moto che aggiunge cilindrata (int). 
+Entrambe chiamano Veicolo::info() nel loro metodo info() e aggiungono le proprie informazioni. Verifica l'ordine di costruzione e distruzione con messaggi nei costruttori e distruttori. Testale nel main. */
 #include <iostream>
 
 using namespace std;

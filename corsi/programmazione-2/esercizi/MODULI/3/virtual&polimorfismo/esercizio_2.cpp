@@ -1,4 +1,6 @@
-/* Esercizio 2 (medio): Crea una classe base Impiegato con attributi nome e stipendio_base, e un metodo virtual calcola_stipendio(). Derivane ImpiegatoFisso (stipendio invariato), ImpiegatoOrario (aggiunge ore_lavorate e tariffa_oraria — stipendio = ore * tariffa) e ImpiegatoVendite (aggiunge vendite e commissione_percentuale — stipendio = base + vendite * commissione / 100). Crea un array polimorfico, calcola e stampa lo stipendio di tutti. Implementa operator<< nella base e ridefiniscilo nelle derivate. */
+/* Esercizio 2 (medio): Crea una classe base Impiegato con attributi nome e stipendio_base, e un metodo virtual calcola_stipendio(). 
+Derivane ImpiegatoFisso (stipendio invariato), ImpiegatoOrario (aggiunge ore_lavorate e tariffa_oraria — stipendio = ore * tariffa) e ImpiegatoVendite (aggiunge vendite e commissione_percentuale — stipendio = base + vendite * commissione / 100). 
+Crea un array polimorfico, calcola e stampa lo stipendio di tutti. Implementa operator<< nella base e ridefiniscilo nelle derivate. */
 #include <iostream>
 
 using namespace std;

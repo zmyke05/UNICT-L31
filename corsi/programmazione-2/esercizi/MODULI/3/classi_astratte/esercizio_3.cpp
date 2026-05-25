@@ -101,7 +101,7 @@ public:
 class Elettronico : public Prodotto
 {
 public:
-    Elettronico() {}
+    /* Elettronico() {} */
     ~Elettronico() override {}
 };
 
