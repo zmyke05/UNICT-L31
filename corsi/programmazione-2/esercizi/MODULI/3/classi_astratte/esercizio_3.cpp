@@ -94,6 +94,11 @@ public:
 
     }
 
+    void stampa() const override
+    {
+        
+    }
+
     // Metodo puro categoria()
     virtual void categoria() const = 0;
 };
