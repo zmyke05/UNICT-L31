@@ -14,6 +14,10 @@ public:
     ~Patient() {}
 
     string get_condition() const { return this->condition; }
+    void print()
+    {
+        cout << "id: " << this->id << " | " << "name: " << this->name << " | " << "condition: " << this->condition << endl;
+    }
 };
 
 class Node
@@ -70,7 +74,15 @@ public:
                     {
                         curr = curr->get_next();
                     }
-                    new_node->set_next(curr->get_next());
+                    if (curr->get_next() == nullptr)
+                    {
+                        new_node->set_next(curr->get_next());
+                        this->tail = new_node;
+                    }
+                    else
+                    {
+                        new_node->set_next(curr->get_next());
+                    }
                     curr->set_next(new_node);
                 }
             }
@@ -81,8 +93,53 @@ public:
             }
         }
     }
+
+    Patient dequeue()
+    {
+        if (this->isEmpty())
+        {
+            cerr << "the queue is empty " << endl;
+            exit(1);
+        }
+
+        Node *tmp = this->head;
+        this->head = this->head->get_next();
+
+        if (this->isEmpty())
+        {
+            this->tail = nullptr;
+        }
+        Patient buffer = tmp->get_key();
+        delete tmp;
+        return buffer;
+    }
+
+    void stampa()
+    {
+        Node *curr = this->head;
+        while (curr != nullptr)
+        {
+            curr->get_key().print();
+            curr = curr->get_next();
+        }
+    }
+
+    friend ostream &operator<<(ostream &os, Queue &q)
+    {
+        q.stampa();
+        return os;
+    }
 };
 
 int main()
 {
+    Queue pronto_soccorso;
+    pronto_soccorso.enqueue(Patient(1, "Franco", "verde"));
+    pronto_soccorso.enqueue(Patient(2, "Mario", "rosso"));
+    pronto_soccorso.enqueue(Patient(3, "Gianni", "verde"));
+    pronto_soccorso.enqueue(Patient(4, "Paolo", "rosso"));
+    pronto_soccorso.enqueue(Patient(5, "Francesco", "rosso"));
+    pronto_soccorso.enqueue(Patient(6, "Manu", "verde"));
+
+    cout << pronto_soccorso;
 }
