@@ -1,0 +1,74 @@
+# APPUNTI QUICKSORT (Schema di Lomuto)
+
+Il QuickSort è un algoritmo di ordinamento "Divide et Impera". 
+Si basa sulla scelta di un **Pivot** e sul partizionamento dell'array: tutti gli elementi minori del pivot vanno a sinistra, quelli maggiori a destra.
+
+---
+
+## 1. MECCANICA DEL PARTIZIONAMENTO (Lomuto)
+Per partizionare usiamo due "strumenti":
+- **Indice i (Il Confine):** Indica dove finisce la zona degli elementi minori del pivot. Inizialmente è vuota (i = -1).
+- **Indice j (L'Esploratore):** Scansiona l'array da sinistra verso destra.
+
+### REGOLE:
+1. Se `A[j] > Pivot`: Non fare nulla, passa al prossimo elemento.
+2. Se `A[j] <= Pivot`: 
+   - Incrementa il confine `i`.
+   - Scambia `A[i]` con `A[j]`.
+3. Alla fine: Scambia il Pivot con l'elemento in posizione `i + 1`.
+
+---
+
+## ESEMPIO 1: Array [6, 8, 2, 1, 4]
+**Pivot scelto:** [4] (ultimo a destra)
+
+
+
+1. **j su [6]:** `6 > 4`. Nulla.
+2. **j su [8]:** `8 > 4`. Nulla.
+3. **j su [2]:** `2 < 4`. **SÌ!**
+   - Sposto il confine `i` sul primo elemento ([6]).
+   - Scambio [2] e [6].
+   - *Stato:* `[2, 8, 6, 1, 4]`
+4. **j su [1]:** `1 < 4`. **SÌ!**
+   - Sposto il confine `i` sul secondo elemento ([8]).
+   - Scambio [1] e [8].
+   - *Stato:* `[2, 1, 6, 8, 4]`
+5. **FINE CICLO:** Scambio il Pivot [4] con l'elemento dopo il confine (il [6]).
+   - **Risultato Partizione:** `[2, 1, 4, 8, 6]`
+
+**Scomposizione:** Il [4] è fisso. Ora si lavora separatamente su `[2, 1]` e `[8, 6]`.
+
+---
+
+## ESEMPIO 2: Array [2, 4, 9, 1, 0]
+**Pivot scelto:** [0] (il minimo dell'array)
+
+1. **Confronti:** `2, 4, 9, 1` sono tutti `> 0`.
+   - L'esploratore `j` arriva alla fine senza aver mai incrementato il confine `i`.
+2. **Posizionamento Pivot:** Scambio il pivot [0] con il primo elemento in assoluto ([2]).
+   - **Risultato Partizione:** `[0, 4, 9, 1, 2]`
+
+**Sottoproblema:** A sinistra di [0] non c'è nulla. A destra resta `[4, 9, 1, 2]`.
+
+---
+
+## ESEMPIO 3: Sottoproblema [4, 9, 1, 2]
+**Pivot scelto:** [2]
+
+1. **j su [4]:** `4 > 2`. Nulla.
+2. **j su [9]:** `9 > 2`. Nulla.
+3. **j su [1]:** `1 < 2`. **SÌ!**
+   - Sposto il confine `i` sul primo elemento ([4]).
+   - Scambio [1] e [4].
+   - *Stato:* `[1, 9, 4, 2]`
+4. **Posizionamento Pivot:** Scambio il pivot [2] con l'elemento dopo il confine (il [9]).
+   - **Risultato Partizione:** `[1, 2, 4, 9]`
+
+---
+
+## CONCLUSIONI E NOTE TECNICHE
+- **SOLUZIONE FINALE:** `[1, 2, 4, 6, 8]`
+- **IMPORTANTE:** Il QuickSort è ottimo ($O(n \log n)$) se il pivot divide l'array a metà.
+- **CASO PEGGIORE:** Se l'array è già ordinato e scegliamo sempre l'ultimo elemento come pivot, l'algoritmo diventa lentissimo ($O(n^2)$).
+- **OTTIMIZZAZIONE:** Per evitare il caso peggiore si usa spesso un **Pivot Random** o la **Mediana di 3** (si sceglie il mediano tra primo, centrale e ultimo elemento).
