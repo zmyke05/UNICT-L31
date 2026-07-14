@@ -1,0 +1,96 @@
+I SIMBOLI CON ❌ SONO ARGOMENTI DA FARE
+----------------------------
+CLASSI & OGGETTI
+----------------------------
+
+----------------------------
+EREDITARIETÁ
+----------------------------
+
+----------------------------
+POLIMORFISMO
+----------------------------
+
+----------------------------
+TEMPLATE
+----------------------------
+
+----------------------------
+COMPLESSITÁ
+----------------------------
+Analisi della Complessitá✅                                                                                                                                                                                                                                                                                                                                                                                                
+Costo di una funzione✅ 
+Caso pessimo/medio✅
+Complessitá temporale✅
+Definizione di Notazione Asintotica✅
+Notazione Asintotica O Grande
+O Grande:
+ - definzione con FORMULA✅
+ - Grafico✅
+ - Gerarchia Asintotica✅
+ - Funzione costante✅
+ - Funzione logaritmica✅
+ - Funzione lineare✅
+ - Funzione nlog n✅
+ - Funzione esponenziale✅
+ - Grafico con le funzioni assintotiche✅
+ - DIMOSTRAZIONE✅
+ - DIMOSTRAZIONE con il grafico❌
+
+Notazione Asintotica Omega Grande
+ - definzione con FORMULA✅
+ - Grafico✅
+ - DIMOSTRAZIONE (differenza con O grande bisogna prendere il valore di c piú <= della somma dei termini)✅
+
+Notazione Asintotica Theta Grande
+ - definzione con FORMULA✅
+ - DIMOSTRAZIONE❌
+
+ ESERCIZI SULLA COMPLESSITÁ CON T(N)❌
+
+
+----------------------------
+RICORSIONE
+----------------------------
+
+----------------------------
+ORDINAMENTI E RICERCA
+----------------------------
+Ricerca Sequenziale✅
+Ricerca Binaria✅
+Complessità della Ricerca✅
+Insertion Sort✅
+Selection Sort❌
+Esercizi❌
+Bubble Sort❌
+Merge Sort❌
+Quick Sort❌
+
+----------------------------
+ALBERI 
+----------------------------
+ALbero
+ - Definizione✅
+ - Esempi✅
+ - Generalizzazione di liste✅
+ - Strutture ricorsive✅
+ - Profonditá di un nodo✅
+ - Cammini, livelli e altezza✅
+ - Alberi bilanciati
+ - Albero binario
+ - Implementazione di un albero
+ - Albero binario di ricerca
+ - Inserimento in un albero binario di ricerca
+ - Visita di un albero binario
+  - in order
+  - pre order
+  - post order
+ - Costo della visita
+ - Ricerca in un albero binario di ricerca
+ - Ricerca iterativa
+ - Massimo e minimo
+ - Successore di x
+ - Cancellazione di un nodo z
+----------------------------
+GRAFI
+----------------------------
