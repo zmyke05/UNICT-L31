@@ -1,4 +1,7 @@
-I SIMBOLI CON ❌ SONO ARGOMENTI DA FARE
+❌ -> ARGOMENTI NON FATTI
+⚠️ -> MANCA QUALCHE SOTTO ARGOMENTO DA COMPLETARE
+✅ -> ARGOMENTI COMPLETATI
+
 ----------------------------
 CLASSI & OGGETTI
 ----------------------------
@@ -6,10 +9,22 @@ CLASSI & OGGETTI
 ----------------------------
 EREDITARIETÁ
 ----------------------------
+Definizione✅ 
+Esempi✅ 
+Tipi di ereditarietá✅ 
+Costruttori ed ereditarietà✅ 
+Ereditarietà multipla✅ 
 
 ----------------------------
 POLIMORFISMO
 ----------------------------
+Definizione
+Binding dinamico
+Funzioni virtuali
+Virtual Pointer
+ - definizione
+Virtual Table
+ - definizione
 
 ----------------------------
 TEMPLATE
@@ -35,14 +50,14 @@ O Grande:
  - Funzione esponenziale✅
  - Grafico con le funzioni assintotiche✅
  - DIMOSTRAZIONE✅
- - DIMOSTRAZIONE con il grafico❌
+ - DIMOSTRAZIONE con il grafico❌ 
 
 Notazione Asintotica Omega Grande
  - definzione con FORMULA✅
  - Grafico✅
  - DIMOSTRAZIONE (differenza con O grande bisogna prendere il valore di c piú <= della somma dei termini)✅
 
-Notazione Asintotica Theta Grande
+Notazione Asintotica Theta Grande⚠️
  - definzione con FORMULA✅
  - DIMOSTRAZIONE❌
 
@@ -69,28 +84,69 @@ Quick Sort❌
 ----------------------------
 ALBERI 
 ----------------------------
-ALbero
- - Definizione✅
- - Esempi✅
- - Generalizzazione di liste✅
- - Strutture ricorsive✅
- - Profonditá di un nodo✅
- - Cammini, livelli e altezza✅
- - Alberi bilanciati
- - Albero binario
- - Implementazione di un albero
- - Albero binario di ricerca
- - Inserimento in un albero binario di ricerca
- - Visita di un albero binario
-  - in order
-  - pre order
-  - post order
- - Costo della visita
- - Ricerca in un albero binario di ricerca
- - Ricerca iterativa
- - Massimo e minimo
- - Successore di x
- - Cancellazione di un nodo z
+Definizione✅
+Esempi✅
+Generalizzazione di liste✅
+Strutture ricorsive✅
+Profonditá di un nodo✅
+esempio✅
+Cammini, livelli e altezza✅
+Alberi bilanciati✅
+Albero binario✅
+Implementazione di un albero❌
+Albero binario di ricerca✅
+Inserimento in un albero binario di ricerca❌
+Visita di un albero binario✅
+- in order✅
+- pre order✅
+- post order✅
+Costo della visita⚠️
+- Complessitá✅
+- Dimostrazione con O grande❌
+Ricerca in un albero binario di ricerca❌
+Ricerca iterativa❌
+Massimo e minimo❌
+Successore di x❌
+Cancellazione di un nodo z❌
+
 ----------------------------
 GRAFI
 ----------------------------
+Definizione✅
+Grafi non direzionati✅
+ - Grado di un vertice⚠️
+  - definizione✅
+  - esempio❌
+ - Cammino⚠️
+  - definizione✅
+  - esempio❌
+ - Ciclo⚠️
+  - definizione✅
+  - esempio❌
+Componente Fortmente Connessa✅
+Sottografo✅
+ - definizione✅
+ - esempio✅
+Grafo Completoe✅
+ - definizione✅
+ - esempio✅
+Rappresentare un Grafi❌
+Liste di Adiacenza - Grafi non direzionati❌
+Liste di adiacenza – Grafi direzionati❌
+Matrici di Adiacenza❌
+Ricerca in ampiezza (Breadth-First-Search) BFS⚠️
+ - definizione✅
+ - I tre colori✅
+ - Breadth-first Trees✅
+ - timestap❌
+Ricerca in Profondità: DFS
+ - definizione✅
+ - Depth first forests
+ - timestap❌
+
+
+
+
+ ORALE:
+ classi e oggtti⚠️
+ ereditarietá✅
