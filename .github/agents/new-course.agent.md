@@ -33,6 +33,7 @@ modificare, spostare o cancellare materiale esistente.
    prima come procedere.
 7. Ogni cartella vuota conterrà un file denominato `.gitkeep`; non creare altri
    file segnaposto.
+8. Una volta creato il corso aggiore il README che sta alla radice della repository
 
 ## Struttura predefinita
 
@@ -72,7 +73,7 @@ sezione `Struttura` coerente con le directory effettivamente create.
 ## Informazioni
 
 - Docente: <da definire>
-- Anno/semestre: <da definire>
+- Anno/semestre: <da definire> esempio, 1° anno, primo semestre
 - CFU: <da definire>
 - Stato: da iniziare
 
@@ -80,8 +81,7 @@ sezione `Struttura` coerente con le directory effettivamente create.
 
 - `materiale-prof/`: materiale fornito dal docente.
 - `materiale-prof/slide/`, `materiale-prof/libri/`,
-  `materiale-prof/esercizi/` e `materiale-prof/formulario`: categorie del
-  materiale fornito.
+  `materiale-prof/esercizi/` e `materiale-prof/formulario`: categorie del materiale fornito.
 - `notes-onenote/universita/` e `notes-onenote/casa/`: appunti e materiale
   raccolto in OneNote, separato per contesto.
 - `esercizi/da-fare/`, `esercizi/svolti/` e `esercizi/esami-passati`:

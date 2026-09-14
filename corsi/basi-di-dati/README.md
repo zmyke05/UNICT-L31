@@ -5,16 +5,16 @@
 - Docenti: Alaimo Salvatore, Micale Giovanni
 - Anno/semestre: 2° anno, primo semestre
 - CFU: 9
-- Stato: da iniziare
+- Stato: Da iniziare
 
-## Struttura
+## Struttura del corso
 
 - `materiale-prof/`: materiale fornito dai docenti.
 - `esercizi/da-fare/`: esercizi ancora da svolgere.
 - `esercizi/svolti/`: esercizi completati.
 - `esercizi/esami-passati/`: prove d'esame e simulazioni.
-- `appunti/onenote/`: esportazioni e allegati da OneNote.
-- `codice/`: codice sviluppato per il corso.
+- `notes-onenote/casa/`: appunti raccolti a casa.
+- `notes-onenote/universita/`: appunti raccolti all'universita.
 - `progetti/`: progetti e consegne del corso.
 
 ## Argomenti

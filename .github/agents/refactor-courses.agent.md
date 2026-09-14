@@ -43,6 +43,7 @@ file salvo richiesta separata.
    `README.md` del corso (per esempio `Stato: Completato [✅]`) e al titolo
    principale `# <Nome del Corso> [✅]`. Non aggiungere mai l'emoji `[✅]` ai
    nomi delle directory sul filesystem, per preservare i nomi ASCII.
+10. organizzare le cartelle seguendo la guida in new-course.agent.md.
 
 ## Regole di sicurezza
 
