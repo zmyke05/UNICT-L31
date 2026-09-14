@@ -13,7 +13,6 @@
 - `esercizi/da-fare/`: esercizi ancora da svolgere.
 - `esercizi/svolti/`: esercizi completati.
 - `esercizi/esami-passati/`: prove d'esame e simulazioni.
-- `appunti/markdown/`: appunti personali in Markdown.
 - `appunti/onenote/`: esportazioni e allegati da OneNote.
 - `codice/`: codice sviluppato per il corso.
 - `progetti/`: progetti e consegne del corso.

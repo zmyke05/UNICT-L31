@@ -1,4 +1,3 @@
-
 ---
 name: new-course
 description: Crea la struttura base e il README di un nuovo corso sotto corsi/

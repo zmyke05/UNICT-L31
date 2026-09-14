@@ -2,9 +2,9 @@
 
 ## Informazioni
 
-- Docente: <da definire>
-- Anno/semestre: <da definire>
-- CFU: <da definire>
+- Docente: Santamaria
+- Anno/semestre: 1° anno, secondo semestre
+- CFU: 9 CFU
 - Stato: [✅] Completato
 
 ## Struttura
