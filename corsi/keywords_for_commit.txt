@@ -1,0 +1,50 @@
+--------------------------------------------------------------------------------------------------
+<type>(<materia>): <descrizione breve>
+--------------------------------------------------------------------------------------------------
+
+Keyword Principali (Tipo di Modifica)
+    - docs: Per appunti, slide, schemi, riassunti in Markdown/LaTeX o note teoriche.
+        Esempio: docs(algebra): aggiunti appunti su autovalori e autovettori
+
+    - feat: Per la prima risoluzione o stesura di un esercizio, progetto o laboratorio di programmazione.
+        Esempio: feat(prog2): implementata lista concatenata in C++
+
+    - fix: Per correggere errori di sintassi nel codice, refactoring di un esercizio o sviste negli appunti.
+        Esempio: fix(prog2): corretto memory leak nel distruttore
+
+    - ex / lab: Alternativa o integrazione a feat specifica per esercitazioni o tracce d'esame.
+        Esempio: ex(algebra): risolta traccia d'esame del 21 settembre
+
+    - assets: Per immagini, PDF di libri/slide, diagrammi o schemi grafici.
+        Esempio: assets(architettura): aggiunti schemi dei circuiti logici
+
+--------------------------------------------------------------------------------------------------
+Tag di Stato / Avanzamento (Opzionali)
+--------------------------------------------------------------------------------------------------
+                                                    
+Puoi usare questi prefissi rapidi nei commit per tracciare lo stato di completamento di una sezione:
+
+    - wip (Work In Progress): Lavoro iniziato ma non ancora concluso.
+        Esempio: wip(algebra): iniziato formulario forme quadratiche
+
+    - review: Modifiche fatte dopo aver ricontrollato un esercizio o dopo un confronto con i compagni.
+        Esempio: review(prog2): ottimizzata la complessita del codice
+
+    - done: Argomento o sezione d'esame archiviata definitivamente.
+        Esempio: done(algebra): completata la revisione di tutto il programma
+
+
+--------------------------------------------------------------------------------------------------
+Keyword per la Gestione delle Cartelle
+--------------------------------------------------------------------------------------------------
+
+    - chore: Per la manutenzione generale, eliminazione di file obsoleti o creazione della struttura iniziale.
+        Esempio eliminazione: chore(algebra): rimossi vecchi bozzetti e file temporanei
+        Esempio aggiunta: chore: creata struttura cartelle per il nuovo semestre
+
+    - style: Quando riorganizzi, sposti o rinomini cartelle e file senza modificarne il contenuto (es. per migliorare l'ordine visuale o la convenzione dei nomi).
+        Esempio spostamento: style(prog2): spostati gli esercizi nella sottocartella /laboratorio
+        Esempio rinomina: style: rinominata cartella algebra-lineare in algebra
+
+    - refactor: Quando ristrutturi in modo significativo la disposizione del materiale per renderlo più fruibile prima dell'esame.
+        Esempio: refactor(algebra): riorganizzati gli appunti per capitoli d'esame
