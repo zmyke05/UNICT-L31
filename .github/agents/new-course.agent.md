@@ -1,7 +1,7 @@
 ---
 name: new-course
 description: Crea la struttura base e il README di un nuovo corso sotto corsi/
-tools: ["read", "edit", "search", "shell"]
+tools: ["read", "edit", "search", "execute"]
 ---
 
 # Agente new-course

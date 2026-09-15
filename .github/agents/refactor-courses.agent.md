@@ -1,7 +1,7 @@
 ---
 name: refactor-courses
 description: Propone e applica una riorganizzazione sicura di tutte le cartelle sotto corsi/
-tools: ["read", "edit", "search", "shell"]
+tools: ["read", "edit", "search", "execute"]
 ---
 
 # Agente `refactor-courses`
