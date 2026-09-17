@@ -85,7 +85,7 @@ sezione `Struttura` coerente con le directory effettivamente create.
 
 | Tipologia | Data |
 | --- | --- |
-| <laboratorio/scritto/orale> | <da definire> |
+| <laboratorio/scritto/orale(obbligatorio)/orale(facoltativo)> | <da definire> |
 
 Aggiungi una riga per ogni prova prevista.
 
