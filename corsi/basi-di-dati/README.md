@@ -7,6 +7,13 @@
 - CFU: 9
 - Stato: Da iniziare
 
+## Prove d'esame
+
+| Tipologia | Data |
+| --- | --- |
+| scritto | <da definire> |
+| orale (discussione del progetto) | <da definire> |
+
 ## Struttura del corso
 
 - `materiale-prof/`: materiale fornito dai docenti.
