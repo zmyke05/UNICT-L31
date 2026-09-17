@@ -11,8 +11,12 @@ modificare, spostare o cancellare materiale esistente.
 
 ## Procedura
 
-1. Raccogli, se mancanti, nome ufficiale, docente, anno/semestre, CFU e quali
-   directory opzionali servono tra `esercizi/`, `laboratorio/` e `progetti/`.
+1. Raccogli, se mancanti, nome ufficiale, docente, anno/semestre, CFU, le
+   informazioni sulle prove d'esame e quali directory opzionali servono tra
+   `esercizi/`, `laboratorio/` e `progetti/`. Per le prove raccogli una o più
+   tipologie tra `laboratorio`, `scritto` e `orale`, oltre alla data prevista
+   per ciascuna prova. Se una tipologia o una data non è ancora disponibile,
+   usa `<da definire>`.
 2. Normalizza il nome della directory in minuscolo usando solo lettere ASCII,
    numeri e trattini: converti spazi e separatori in un trattino, rimuovi
    accenti, emoji, simboli e indicatori. Mantieni il nome originale nel titolo
@@ -76,6 +80,14 @@ sezione `Struttura` coerente con le directory effettivamente create.
 - Anno/semestre: <da definire> esempio, 1° anno, primo semestre
 - CFU: <da definire>
 - Stato: da iniziare
+
+## Prove d'esame
+
+| Tipologia | Data |
+| --- | --- |
+| <laboratorio/scritto/orale> | <da definire> |
+
+Aggiungi una riga per ogni prova prevista.
 
 ## Struttura
 
