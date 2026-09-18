@@ -11,7 +11,7 @@
 
 - `materiale-prof/`: materiale fornito dal docente.
 - `materiale-prof/esercizi/`: esercizi forniti dal docente.
-- `materiale-prof/formulario/`: formulari.
+- `notes-onenote/formulario/`: formulari e riassunti sintetici.
 - `materiale-prof/libri/`: libri e testi di riferimento.
 - `materiale-prof/slide/`: slide delle lezioni.
 - `esercizi/da-fare/`: esercizi ancora da svolgere.

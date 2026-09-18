@@ -22,6 +22,7 @@
 - `esercizi/esami-passati/`: prove d'esame e simulazioni.
 - `notes-onenote/casa/`: appunti raccolti a casa.
 - `notes-onenote/universita/`: appunti raccolti all'universita.
+- `notes-onenote/formulario/`: formulari e riassunti sintetici.
 - `progetti/`: progetti e consegne del corso.
 
 ## Argomenti

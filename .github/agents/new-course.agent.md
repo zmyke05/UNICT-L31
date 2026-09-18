@@ -27,8 +27,8 @@ modificare, spostare o cancellare materiale esistente.
    directory opzionali richieste, e chiedi conferma esplicita.
 5. Dopo la conferma crea la struttura e il README. La struttura deve seguire
    quella reale di `corsi/basi-di-dati`: `materiale-prof/` contiene sempre
-   `slide/`, `libri/`, `esercizi/` e `formulario/`; `notes-onenote/` contiene
-   sempre `universita/` e `casa/`. Crea inoltre, solo se richieste,
+   `slide/`, `libri/` e `esercizi/`; `notes-onenote/` contiene sempre
+   `universita/`, `casa/` e `formulario/`. Crea inoltre, solo se richieste,
    `esercizi/`, `laboratorio/` e `progetti/` direttamente sotto la directory
    del corso. Dentro `esercizi/` crea sempre `da-fare/`, `svolti/` ed
    `esami-passati/`. Non creare directory `universita/` o `casa/` al livello
@@ -47,11 +47,11 @@ corsi/<nome-corso>/
 ├── materiale-prof/
 │   ├── slide/
 │   ├── libri/
-│   ├── esercizi/
-│   └── formulario/
+│   └── esercizi/
 ├── notes-onenote/
 │   ├── universita/
-│   └── casa/
+│   ├── casa/
+│   └── formulario/
 ├── esercizi/                  # opzionale
 │   ├── da-fare/
 │   ├── svolti/
@@ -62,9 +62,10 @@ corsi/<nome-corso>/
 
 Le directory `esercizi/`, `laboratorio/` e `progetti/` sono opzionali
 indipendenti: chiedi quali creare e, se richieste, aggiungile direttamente
-sotto `corsi/<nome-corso>/`. Le directory `notes-onenote/universita/` e
-`notes-onenote/casa/` sono sempre obbligatorie e mantengono separati i due
-contesti.
+sotto `corsi/<nome-corso>/`. Le directory
+`notes-onenote/universita/`, `notes-onenote/casa/` e
+`notes-onenote/formulario/` sono sempre obbligatorie. Le prime due mantengono
+separati i contesti; la terza raccoglie formulari e riassunti sintetici.
 
 ## README
 
@@ -93,9 +94,11 @@ Aggiungi una riga per ogni prova prevista.
 
 - `materiale-prof/`: materiale fornito dal docente.
 - `materiale-prof/slide/`, `materiale-prof/libri/`,
-  `materiale-prof/esercizi/` e `materiale-prof/formulario`: categorie del materiale fornito.
+  `materiale-prof/esercizi/`: categorie del materiale fornito.
 - `notes-onenote/universita/` e `notes-onenote/casa/`: appunti e materiale
   raccolto in OneNote, separato per contesto.
+- `notes-onenote/formulario/`: formulari e riassunti sintetici raccolti in
+  OneNote.
 - `esercizi/da-fare/`, `esercizi/svolti/` e `esercizi/esami-passati`:
   esercizi, rispettivamente, ancora da svolgere, completati e tratti da prove
   d'esame (solo se è stata richiesta la directory opzionale `esercizi/`).

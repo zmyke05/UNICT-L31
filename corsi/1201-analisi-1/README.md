@@ -10,7 +10,7 @@
 ## Struttura
 
 - `materiale-prof/esercizi/`: esercizi del corso.
-- `materiale-prof/formulario/`: formulari.
+- `notes-onenote/formulario/`: formulari e riassunti sintetici.
 - `materiale-prof/libri/`: libri e testi di riferimento.
 - `materiale-prof/slide/`: slide delle lezioni.
 - `notes-onenote/casa/`: appunti raccolti a casa.

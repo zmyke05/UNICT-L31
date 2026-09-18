@@ -20,7 +20,7 @@
 - `materiale-prof/slide/`: slide.
 - `materiale-prof/libri/`: libri e testi di riferimento.
 - `materiale-prof/esercizi/`: esercizi forniti dal docente.
-- `materiale-prof/formulario/`: formulari.
+- `notes-onenote/formulario/`: formulari e riassunti sintetici.
 - `notes-onenote/universita/`: appunti raccolti all'universita.
 - `notes-onenote/casa/`: appunti raccolti a casa.
 
