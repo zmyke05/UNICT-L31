@@ -29,11 +29,23 @@ file salvo richiesta separata.
    data prevista per ciascuna prova. Non modificare i README dei corsi per cui
    l'utente non fornisce dati o risponde di no; usa `<da definire>` solo quando
    l'utente conferma l'aggiornamento ma non conosce ancora un valore.
-4. Proponi una mappa completa `origine -> destinazione` per ogni directory da
-   rinominare o spostare, comprese le relazioni tra cartelle padre e figlie.
-   Per i nomi dei corsi e delle directory interne usa minuscolo, lettere ASCII,
-   numeri e trattini, mantenendo una gerarchia coerente. Non cambiare estensioni
-   o nomi dei file di contenuto senza richiesta esplicita.
+4. Proponi una mappa completa `origine -> destinazione` per ogni directory
+   sotto `corsi/` da rinominare o spostare, includendo le directory dei corsi,
+   le directory interne, le sottocartelle vuote e le relazioni tra cartelle
+   padre e figlie. La mappa deve elencare ogni operazione esplicita, senza
+   saltare percorsi o accorpare directory diverse. Per i nomi delle directory
+   usa solo lettere ASCII minuscole, numeri e trattini, sostituendo spazi e
+   separatori con un singolo trattino e rimuovendo accenti, simboli ed emoji;
+   mantieni una gerarchia coerente e non aggiungere indicatori come `[✅]` ai
+   nomi sul filesystem.
+   I file non fanno parte della mappa delle directory: non rinominarli,
+   spostarli o cambiarne l'estensione, salvo richiesta esplicita dell'utente.
+   Se l'utente richiede la normalizzazione di una categoria di file (per
+   esempio tutti i PDF), costruisci una mappa separata completa per ogni file
+   di quella categoria presente sotto `corsi/`, applicando le stesse regole di
+   normalizzazione al nome ma mantenendo l'estensione invariata. Non estendere
+   autonomamente l'operazione al resto della repository e non chiedere una
+   conferma aggiuntiva per analizzare l'ambito già indicato dall'utente.
 5. Controlla le collisioni: se la destinazione esiste o due origini convergono,
    fermati e chiedi una decisione. Non fondere directory automaticamente.
 6. Mostra un'anteprima delle operazioni e delle eventuali modifiche ai README,
