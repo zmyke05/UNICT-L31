@@ -1,0 +1,96 @@
+# Lezione 02
+
+- PDF: `lezione-02.pdf`
+- Numero di slide: 79
+- Argomento: Percezione visiva, colore e acquisizione delle immagini
+- Stato: da studiare
+
+## Checklist delle slide
+- [ ] Slide 01
+- [ ] Slide 02
+- [ ] Slide 03
+- [ ] Slide 04
+- [ ] Slide 05
+- [ ] Slide 06
+- [ ] Slide 07
+- [ ] Slide 08
+- [ ] Slide 09
+- [ ] Slide 10
+- [ ] Slide 11
+- [ ] Slide 12
+- [ ] Slide 13
+- [ ] Slide 14
+- [ ] Slide 15
+- [ ] Slide 16
+- [ ] Slide 17
+- [ ] Slide 18
+- [ ] Slide 19
+- [ ] Slide 20
+- [ ] Slide 21
+- [ ] Slide 22
+- [ ] Slide 23
+- [ ] Slide 24
+- [ ] Slide 25
+- [ ] Slide 26
+- [ ] Slide 27
+- [ ] Slide 28
+- [ ] Slide 29
+- [ ] Slide 30
+- [ ] Slide 31
+- [ ] Slide 32
+- [ ] Slide 33
+- [ ] Slide 34
+- [ ] Slide 35
+- [ ] Slide 36
+- [ ] Slide 37
+- [ ] Slide 38
+- [ ] Slide 39
+- [ ] Slide 40
+- [ ] Slide 41
+- [ ] Slide 42
+- [ ] Slide 43
+- [ ] Slide 44
+- [ ] Slide 45
+- [ ] Slide 46
+- [ ] Slide 47
+- [ ] Slide 48
+- [ ] Slide 49
+- [ ] Slide 50
+- [ ] Slide 51
+- [ ] Slide 52
+- [ ] Slide 53
+- [ ] Slide 54
+- [ ] Slide 55
+- [ ] Slide 56
+- [ ] Slide 57
+- [ ] Slide 58
+- [ ] Slide 59
+- [ ] Slide 60
+- [ ] Slide 61
+- [ ] Slide 62
+- [ ] Slide 63
+- [ ] Slide 64
+- [ ] Slide 65
+- [ ] Slide 66
+- [ ] Slide 67
+- [ ] Slide 68
+- [ ] Slide 69
+- [ ] Slide 70
+- [ ] Slide 71
+- [ ] Slide 72
+- [ ] Slide 73
+- [ ] Slide 74
+- [ ] Slide 75
+- [ ] Slide 76
+- [ ] Slide 77
+- [ ] Slide 78
+- [ ] Slide 79
+
+## Note personali
+
+- 
+- 
+
+## Riassunto
+
+- Scrivere qui il riassunto della lezione.
