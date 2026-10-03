@@ -59,7 +59,8 @@
 
 ## Note personali
 
-- 
+-
+Credo di non aver dimenticato niente
 - 
 
 ## Riassunto

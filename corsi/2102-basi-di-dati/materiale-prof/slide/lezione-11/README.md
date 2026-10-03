@@ -23,16 +23,16 @@
 - [ ] Slide 15
 - [ ] Slide 16
 - [ ] Slide 17
-- [ ] Slide 18
-- [ ] Slide 19
-- [ ] Slide 20
-- [ ] Slide 21
-- [ ] Slide 22
-- [ ] Slide 23
-- [ ] Slide 24
-- [ ] Slide 25
-- [ ] Slide 26
-- [ ] Slide 27
+- [✅] Slide 18 : a partire da qui i trigger
+- [✅] Slide 19
+- [✅] Slide 20
+- [✅] Slide 21
+- [✅] Slide 22
+- [✅] Slide 23
+- [✅] Slide 24
+- [✅] Slide 25
+- [✅] Slide 26
+- [✅] Slide 27
 - [ ] Slide 28
 - [ ] Slide 29
 - [ ] Slide 30
@@ -44,7 +44,7 @@
 - [ ] Slide 36
 - [ ] Slide 37
 - [ ] Slide 38
-- [ ] Slide 39
+- [ ] Slide 39 : a partire da qui esercizi
 - [ ] Slide 40
 - [ ] Slide 41
 - [ ] Slide 42
