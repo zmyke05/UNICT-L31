@@ -41,5 +41,3 @@ raccolgono, quando presenti:
 - Le directory vuote sono conservate tramite un file `.gitkeep`.
 - Il README di ogni corso contiene le informazioni su docente,
   anno/semestre, CFU, stato e struttura del corso.
-
-  fatto
