@@ -5,7 +5,7 @@
 - Docente: Viola Caterina
 - Anno/semestre: 2° anno, primo semestre
 - CFU: 9
-- Stato: Da iniziare
+- Stato: In corso
 
 ## Prove d'esame
 
