@@ -74,15 +74,15 @@ La selezione è basata sugli argomenti prioritari:
 
 ### Prioritari
 
-- Lezione 3: algebra relazionale
-- Lezione 4: JOIN e algebra relazionale derivata
-- Lezione 7: SQL: `SELECT`
-- Lezione 8: SQL: aggregazioni e raggruppamenti
-- Lezione 11: trigger
-- Lezione 13: progettazione E/R
-- Lezione 14: attributi derivabili e ridondanti
-- Lezione 17: dipendenze funzionali e BCNF
-- Lezione 18: transazioni, CSR/VSR e indici
+- [✅] Lezione 3: algebra relazionale
+- [] Lezione 4: JOIN e algebra relazionale derivata
+- [] Lezione 7: SQL: `SELECT`
+- [] Lezione 8: SQL: aggregazioni e raggruppamenti
+- [✅] Lezione 11: trigger
+- [] Lezione 13: progettazione E/R
+- [] Lezione 14: attributi derivabili e ridondanti
+- [] Lezione 17: dipendenze funzionali e BCNF
+- [] Lezione 18: transazioni, CSR/VSR e indici
 **Totale: 712 slide**
 
 ### Selettivi
