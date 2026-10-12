@@ -67,12 +67,9 @@ All'avvio, presenta all'utente una scelta chiara per configurare l'operazione:
      ```markdown
      # Lezione XX - Checklist Slide
 
-     - [ ] **Slide 01**
-       ![Slide 01](slides/slide-01.png)
-     - [ ] **Slide 02**
-       ![Slide 02](slides/slide-02.png)
-     - [ ] **Slide 03**
-       ![Slide 03](slides/slide-03.png)
+      - [] Slide 01
+      - [] Slide 02
+      - [] Slide 03
      ...
      ```
 

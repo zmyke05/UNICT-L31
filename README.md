@@ -27,8 +27,8 @@ Ogni corso ha una directory dedicata sotto `corsi/`. Le sottocartelle
 raccolgono, quando presenti:
 
 - `materiale-prof/`: materiale fornito dal docente.
-- `universita/`: appunti e attivita svolte all'universita.
-- `casa/`: appunti e attivita svolte a casa.
+- `notes-onenote/universita/`: appunti e attivita svolte all'universita.
+- `notes-onenote/casa/`: appunti e attivita svolte a casa.
 - `esercizi/`: esercizi, prove d'esame e soluzioni.
 - `notes-onenote/`: appunti organizzati per argomento.
 

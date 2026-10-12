@@ -33,17 +33,17 @@
 - [✅] Slide 25
 - [✅] Slide 26
 - [✅] Slide 27
-- [ ] Slide 28
-- [ ] Slide 29
-- [ ] Slide 30
-- [ ] Slide 31
-- [ ] Slide 32
-- [ ] Slide 33
-- [ ] Slide 34
-- [ ] Slide 35
-- [ ] Slide 36
-- [ ] Slide 37
-- [ ] Slide 38
+- [✅] Slide 28
+- [✅] Slide 29
+- [✅] Slide 30
+- [✅] Slide 31
+- [✅] Slide 32
+- [✅] Slide 33
+- [✅] Slide 34
+- [✅] Slide 35
+- [✅] Slide 36
+- [✅] Slide 37
+- [✅] Slide 38
 - [ ] Slide 39 : a partire da qui esercizi
 - [ ] Slide 40
 - [ ] Slide 41
@@ -58,6 +58,7 @@
 ## Note personali
 
 - 
+Manca la scrittura degli esempi sui trigger
 - 
 
 ## Riassunto
